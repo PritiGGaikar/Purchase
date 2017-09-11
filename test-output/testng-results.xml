@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="161781" started-at="2017-09-11T04:08:38Z" finished-at="2017-09-11T04:11:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="161781" started-at="2017-09-11T04:08:38Z" finished-at="2017-09-11T04:11:19Z">
+      <class name="Jibe_PURC_ADMIN.PurchaseQuestionnaireTest">
+        <test-method status="PASS" signature="initialioseBrowser()[pri:0, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="initialioseBrowser" is-config="true" duration-ms="17701" started-at="2017-09-11T09:38:20Z" finished-at="2017-09-11T09:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialioseBrowser -->
+        <test-method status="PASS" signature="beforeSu()[pri:0, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="beforeSu" is-config="true" duration-ms="101" started-at="2017-09-11T09:38:38Z" depends-on-methods="common_Function.WebDriverPass.initialioseBrowser" finished-at="2017-09-11T09:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSu -->
+        <test-method status="PASS" signature="PurchaseQuestionnaireURL()[pri:27, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="PurchaseQuestionnaireURL" duration-ms="8019" started-at="2017-09-11T09:38:38Z" finished-at="2017-09-11T09:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseQuestionnaireURL -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="afterMethod" is-config="true" duration-ms="407" started-at="2017-09-11T09:38:46Z" finished-at="2017-09-11T09:38:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PurchaseQuestionnaireURL status=SUCCESS method=PurchaseQuestionnaireTest.PurchaseQuestionnaireURL()[pri:27, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ValidationforAddNewQuestion()[pri:28, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="ValidationforAddNewQuestion" duration-ms="43849" started-at="2017-09-11T09:38:46Z" finished-at="2017-09-11T09:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidationforAddNewQuestion -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="afterMethod" is-config="true" duration-ms="27" started-at="2017-09-11T09:39:30Z" finished-at="2017-09-11T09:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidationforAddNewQuestion status=SUCCESS method=PurchaseQuestionnaireTest.ValidationforAddNewQuestion()[pri:28, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="DuplicateAddNewQuestion()[pri:29, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="DuplicateAddNewQuestion" duration-ms="19170" started-at="2017-09-11T09:39:30Z" finished-at="2017-09-11T09:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DuplicateAddNewQuestion -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="afterMethod" is-config="true" duration-ms="35" started-at="2017-09-11T09:39:49Z" finished-at="2017-09-11T09:39:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DuplicateAddNewQuestion status=SUCCESS method=PurchaseQuestionnaireTest.DuplicateAddNewQuestion()[pri:29, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="DeleteNewQuestion()[pri:30, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="DeleteNewQuestion" duration-ms="15787" started-at="2017-09-11T09:39:49Z" finished-at="2017-09-11T09:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteNewQuestion -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="afterMethod" is-config="true" duration-ms="24" started-at="2017-09-11T09:40:05Z" finished-at="2017-09-11T09:40:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteNewQuestion status=SUCCESS method=PurchaseQuestionnaireTest.DeleteNewQuestion()[pri:30, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="SearchDeleteNewQuestion()[pri:31, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="SearchDeleteNewQuestion" duration-ms="12733" started-at="2017-09-11T09:40:05Z" finished-at="2017-09-11T09:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchDeleteNewQuestion -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="afterMethod" is-config="true" duration-ms="21" started-at="2017-09-11T09:40:18Z" finished-at="2017-09-11T09:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchDeleteNewQuestion status=SUCCESS method=PurchaseQuestionnaireTest.SearchDeleteNewQuestion()[pri:31, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="ValidationforAddNewGrade()[pri:32, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="ValidationforAddNewGrade" duration-ms="31330" started-at="2017-09-11T09:40:18Z" finished-at="2017-09-11T09:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidationforAddNewGrade -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="afterMethod" is-config="true" duration-ms="22" started-at="2017-09-11T09:40:49Z" finished-at="2017-09-11T09:40:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidationforAddNewGrade status=SUCCESS method=PurchaseQuestionnaireTest.ValidationforAddNewGrade()[pri:32, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="DeleteAddedNewGrade()[pri:34, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="DeleteAddedNewGrade" duration-ms="30318" started-at="2017-09-11T09:40:49Z" finished-at="2017-09-11T09:41:19Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at Jibe_PURC_ADMIN.PurchaseQuestionnaireTest.DeleteAddedNewGrade(PurchaseQuestionnaireTest.java:159)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAddedNewGrade -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="afterMethod" is-config="true" duration-ms="20" started-at="2017-09-11T09:41:19Z" finished-at="2017-09-11T09:41:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteAddedNewGrade status=FAILURE method=PurchaseQuestionnaireTest.DeleteAddedNewGrade()[pri:34, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Jibe_PURC_ADMIN.PurchaseQuestionnaireTest@7205765b]" name="closeBrowser" is-config="true" duration-ms="765" started-at="2017-09-11T09:41:20Z" finished-at="2017-09-11T09:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Jibe_PURC_ADMIN.PurchaseQuestionnaireTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

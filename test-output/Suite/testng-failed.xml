@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="purchase_Admin.SetItemsMinMaxQtysTest">
+        <methods>
+          <include name="CatalogueItem"/>
+          <include name="MinMaxQuantity"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- purchase_Admin.SetItemsMinMaxQtysTest -->
+      <class name="purchase_Admin.UnitPackingsTest">
+        <methods>
+          <include name="SearchAddedUnitPacking"/>
+          <include name="ValidationforAddUnitPacking"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="DuplicateAddUnitPacking"/>
+          <include name="SearchDeletedtUnitPacking"/>
+          <include name="UnitPacking"/>
+          <include name="SearchEditUnitPacking"/>
+          <include name="DeleteUnitPacking"/>
+          <include name="EditUnitPacking"/>
+        </methods>
+      </class> <!-- purchase_Admin.UnitPackingsTest -->
+      <class name="purchase_Admin.LocationTest">
+        <methods>
+          <include name="SearchEditLocation"/>
+          <include name="ValidationforAddNewLocation"/>
+          <include name="DuplicateAddNewLocation"/>
+          <include name="EditLocation"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="DeleteLocation"/>
+          <include name="Locations"/>
+          <include name="SearchDeletedLocation"/>
+          <include name="SearchAddNewLocation"/>
+        </methods>
+      </class> <!-- purchase_Admin.LocationTest -->
+      <class name="purchase_Admin.LOTestingLabListTest">
+        <methods>
+          <include name="DeleteLab"/>
+          <include name="SearchEditedLab"/>
+          <include name="closeBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="initialioseBrowser"/>
+          <include name="DuplicateAddNewLab"/>
+          <include name="SearchAddedNewLab"/>
+          <include name="TestingLabList"/>
+          <include name="ValidationforAddNewLab"/>
+          <include name="SearchDeletedLab"/>
+          <include name="EditLab"/>
+        </methods>
+      </class> <!-- purchase_Admin.LOTestingLabListTest -->
+      <class name="purchase_Admin.PurchaseQuestionnaireTest">
+        <methods>
+          <include name="ValidationforAddNewGrade"/>
+          <include name="PurchaseQuestionnaire"/>
+          <include name="DuplicateAddNewQuestion"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="SearchDeleteNewQuestion"/>
+          <include name="ValidationforAddNewQuestion"/>
+          <include name="DeleteAddedNewGrade"/>
+          <include name="DeleteNewQuestion"/>
+        </methods>
+      </class> <!-- purchase_Admin.PurchaseQuestionnaireTest -->
+      <class name="purchase_Admin.PurchaseSettingsTest">
+        <methods>
+          <include name="PurchaseConfigsettingsURL"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="AutomaticRequisition"/>
+          <include name="CaptureRank"/>
+          <include name="PurchaseMandatory"/>
+          <include name="PurchaseConfigSetting"/>
+          <include name="PurchaseAutoSetting"/>
+        </methods>
+      </class> <!-- purchase_Admin.PurchaseSettingsTest -->
+      <class name="purchase_Admin.ItemCategoryTest">
+        <methods>
+          <include name="ValidationforAddNewCategory"/>
+          <include name="DeleteCategory"/>
+          <include name="ItemCategory"/>
+          <include name="SearchAddNewCategory"/>
+          <include name="SearchDeleteCategory"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="EditAddNewCategory"/>
+          <include name="SearchEditAddNewCategory"/>
+        </methods>
+      </class> <!-- purchase_Admin.ItemCategoryTest -->
+      <class name="purchase_Admin.Function_DepartmentTest">
+        <methods>
+          <include name="SearchEditedFunctionDepartment"/>
+          <include name="EditFunctionDepartment"/>
+          <include name="SearchDeletetFunctionDepartment"/>
+          <include name="DeletetFunctionDepartment"/>
+          <include name="SearchAddesFunctionDepartment"/>
+          <include name="beforeSu"/>
+          <include name="FunctionDepartment"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- purchase_Admin.Function_DepartmentTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
